@@ -1,6 +1,8 @@
-start redis
+start-redis:
     redis-server
-start redis-cli
+
+start-redis-cli:
     redis-cli
-get redis
-    keys *
+
+get-redis:
+    redis-cli keys '*'
